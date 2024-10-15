@@ -25,15 +25,13 @@ ul {
   margin: 0;
   padding: 0;
   gap: 10px;
-  flex: 1;
-  
 }
 
 a {
-    display: flex;
-    color: white;
-    margin: 0;
-    text-decoration: none;
+  display: flex;
+  color: white;
+  margin: 0;
+  text-decoration: none;
 }
 
 .header-two {
@@ -41,7 +39,41 @@ a {
   flex: 5;
   background-color: #1F2937;
   padding: 20px 50px;
+  gap: 50px
 }
+
+.title-button {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.title {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #3882F6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+.image{
+  flex: 1;
+  background-color: white;
+}
+
 
 .information-section {
   display: flex;
