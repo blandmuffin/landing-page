@@ -2,34 +2,70 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  width: 100vw;
   margin: 0;
 }
 
-.header {
+.header-one {
   display: flex;
-  flex: 6;
+  flex: 1;
   background-color: #1F2937;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+  flex: 1;
+  
+}
+
+a {
+    display: flex;
+    color: white;
+    margin: 0;
+    text-decoration: none;
+}
+
+.header-two {
+  display: flex;
+  flex: 5;
+  background-color: #1F2937;
+  padding: 20px 50px;
 }
 
 .information-section {
   display: flex;
   flex: 6;
   background-color: #3882F6;
+  padding: 20px 50px;
 }
 
 .quote-section {
   display: flex;
   flex: 5;
-  background-color: #E5E7EB
+  background-color: #E5E7EB;
+  padding: 20px 50px;
 }
 
 .cta-section {
   display: flex;
   flex: 2;
+  padding: 20px 50px;
 }
 
 .footer {
   display: flex;
   flex: 1;
   background-color: #1F2937;
+  padding: 20px 50px;
 }
